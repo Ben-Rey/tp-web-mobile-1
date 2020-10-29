@@ -1,0 +1,16 @@
+.reseau {
+  display: flex;
+  background-color: #f21031 !important;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  .icon {
+    font-size: 2rem;
+    margin: 1rem;
+    filter: contrast(0.9);
+    &:hover {
+      filter: contrast(0.1);
+      cursor: pointer;
+    }
+  }
+}

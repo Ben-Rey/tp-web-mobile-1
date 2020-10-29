@@ -8,6 +8,7 @@ import { SectionReseauComponent } from './section-reseau/section-reseau.componen
 import { SectionCarousselComponent } from './section-caroussel/section-caroussel.component';
 import { SectionImagesVideoComponent } from './section-images-video/section-images-video.component';
 import { SectionFooterComponent } from './section-footer/section-footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SectionFooterComponent } from './section-footer/section-footer.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
