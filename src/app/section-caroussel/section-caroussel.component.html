@@ -1,1 +1,5 @@
-<p>section-caroussel works!</p>
+<carousel [cellsToShow]="1" [height]="400" [autoplay]="true" [dots]="true">
+  <div *ngFor="let item of images" class="carousel-cell">
+    <img [src]="item.url" />
+  </div>
+</carousel>

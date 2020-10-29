@@ -9,6 +9,7 @@ import { SectionCarousselComponent } from './section-caroussel/section-caroussel
 import { SectionImagesVideoComponent } from './section-images-video/section-images-video.component';
 import { SectionFooterComponent } from './section-footer/section-footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
